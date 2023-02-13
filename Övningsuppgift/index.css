@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box; 
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row:after {
+    content:"";
+    display:table;
+    clear: both;
+}
+
+body {
+    background-color: rgb(225, 209, 191);
+}
+h1 {
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; 
+}
